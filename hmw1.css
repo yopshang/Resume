@@ -21,9 +21,6 @@ header{
     display: block;
     margin: 50px 15px;
 }
-.content{
-    margin:0px 0px 46px 0px;
-}
 header div h1{
     font-size: 38px;
 }
@@ -48,7 +45,8 @@ ul hr{
     background-color: #FAFAFA;
 }
 .graybgcolor{
-    background-color: #404d6b;
+    /* background-color: #404d6b; */
+    /* color: black; */
 }
 .width100{
     width: 100%; 
@@ -62,22 +60,23 @@ ul hr{
     width: 710px;
 }
 .skills{
-    color: #FAFAFA;
+    /* color: #FAFAFA; */
     width: 710px;
     padding: 28px 74px 39px 74px ;
-}
-.skillsbottom{
-    height: 215px;
-    background-color: rgb(119, 144, 190);
-}
-.down{
-    height: 48px;
 }
 .outsideskills{
     margin: 53px 0px 48px 0px;
     display: flex;
-    flex-direction: column;   
+    flex-direction: column; 
 }
+/* .skillsbottom{
+    height: 215px;
+    background-color: rgb(119, 144, 190);
+} */
+.down{
+    height: 48px;
+}
+
 .skillstitle{
     line-height: 50px;
     font-size: 27px;
@@ -106,7 +105,7 @@ ul hr{
     margin: 15px;
 }
 .workexperence{
-    width: 372px;
+    width: 80%;
     margin-bottom: 44px;
 }
 .title{
@@ -123,7 +122,7 @@ ul hr{
 }
 .workexperencecontent{
     font-size: 12px;
-    line-height: 17px;
+    line-height: 20px;
     margin-bottom: 30px;
 }
 .bottomspace{
@@ -138,7 +137,7 @@ ul hr{
 
 .footer{
     height: 236px;
-    color: #FAFAFA;
+    /* color: #FAFAFA; */
 }
 .contactoutside{
     padding: 19px 0 25px 0;
@@ -170,4 +169,19 @@ ul hr{
 }
 .mb-15{
     margin-bottom: 15px;
+}
+.mb-30{
+    margin-bottom: 30px;
+}
+.d-flex{
+    display: flex;
+}
+.jc-space-around{
+    justify-content: space-around;
+}
+.m-0{
+    margin: 0;
+}
+.noLi{
+    list-style: none;
 }
